@@ -20,7 +20,7 @@ class Queue:
   def dequeue(self) -> None:
         if not self.head is None:
             self.head = self.head.next
-            if self.head is None:
+            if self.head is None: 
               self.last = None
 
   def status(self) -> None:
